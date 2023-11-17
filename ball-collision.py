@@ -12,7 +12,6 @@ def ball_collide(x1,y1,r1,x2,y2,r2):
  else:
     print("Not Colliding")
     return False;
-
 c=ball_collide(4,4,3,2,2,3)
 print(c) 
 c=ball_collide(100,200,20,200,100,10)
